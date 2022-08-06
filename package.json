@@ -1,0 +1,17 @@
+{
+  "name": "currency-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nikita Olenichev <nolenichevv@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "telegraf": "^4.6.0"
+  }
+}

@@ -72,7 +72,7 @@ bot
 
 if (process.env.NODE_ENV === "production") {
 	bot.telegram.setWebhook(
-		`https://p2p-bot.herokuapp.com/bot${BOT_TOKEN}`
+		`https://p2p-bot.vercel.app/bot${BOT_TOKEN}`
 	)
 	bot.startWebhook(`/bot${BOT_TOKEN}`, null, PORT)
 } else {
